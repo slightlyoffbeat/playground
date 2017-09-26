@@ -24,9 +24,9 @@ const Tutorial = () => (
 
     <h3 className="mt3">CSS Grid Overlay</h3>
     <p>
-      The new CSS Layout panel lists all the available CSS Grid containers on the page and includes an
-      overlay to help you visualize the grid itself. You can customize the information displayed on
-      the overlay, including grid line numbers and dimensions.
+      The new CSS Layout panel lists all the available CSS Grid containers on the page and includes
+      an overlay to help you visualize the grid itself. You can customize the information displayed
+      on the overlay, including grid line numbers and dimensions.
     </p>
     <img style={imgStyle} src={gif1} alt="enable grid overlay on a grid" />
 
@@ -44,11 +44,11 @@ const Tutorial = () => (
     </p>
     <img style={imgStyle} src={gif3} alt="grid area" />
 
-    <h3>Visualize transitions</h3>
+    <h3>Visualize transformations</h3>
     <p>
       The Grid Inspector is capable of visualizing transformations applied to the grid container.
-      This lets you accurately see where the grid lines are on the page for any grids that
-      are translated, skewed, rotated, or scaled.
+      This lets you accurately see where the grid lines are on the page for any grids that are
+      translated, skewed, rotated, or scaled.
     </p>
     <img style={imgStyle} src={gif4} alt="grid transition" />
 
